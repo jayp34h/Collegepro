@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bookGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded rectangle background -->
+  <rect width="512" height="512" rx="120" ry="120" fill="url(#bgGradient)"/>
+  
+  <!-- Main book/education symbol -->
+  <g transform="translate(128, 128)">
+    <!-- Book base -->
+    <rect x="0" y="80" width="256" height="176" rx="12" ry="12" fill="url(#bookGradient)" opacity="0.9"/>
+    
+    <!-- Book pages -->
+    <rect x="16" y="96" width="224" height="144" rx="8" ry="8" fill="white" opacity="0.95"/>
+    
+    <!-- Book spine -->
+    <rect x="0" y="80" width="24" height="176" rx="12" ry="12" fill="#4a5568"/>
+    
+    <!-- College cap -->
+    <g transform="translate(64, 16)">
+      <!-- Cap base -->
+      <ellipse cx="64" cy="48" rx="80" ry="16" fill="#2d3748"/>
+      <!-- Cap top -->
+      <rect x="16" y="32" width="96" height="32" rx="16" ry="16" fill="#4a5568"/>
+      <!-- Tassel -->
+      <circle cx="112" cy="40" r="6" fill="#f6ad55"/>
+      <rect x="110" y="46" width="4" height="20" fill="#f6ad55"/>
+    </g>
+    
+    <!-- Text lines on book -->
+    <rect x="32" y="120" width="120" height="4" rx="2" fill="#667eea" opacity="0.7"/>
+    <rect x="32" y="140" width="160" height="4" rx="2" fill="#667eea" opacity="0.7"/>
+    <rect x="32" y="160" width="140" height="4" rx="2" fill="#667eea" opacity="0.7"/>
+    <rect x="32" y="180" width="100" height="4" rx="2" fill="#667eea" opacity="0.7"/>
+    
+    <!-- "CP" monogram -->
+    <text x="180" y="200" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#667eea" opacity="0.8">CP</text>
+  </g>
+  
+  <!-- Subtle shine effect -->
+  <ellipse cx="200" cy="150" rx="80" ry="40" fill="white" opacity="0.1" transform="rotate(-45 200 150)"/>
+</svg>

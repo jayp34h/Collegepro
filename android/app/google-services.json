@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "174669776651",
+    "firebase_url": "https://collegepro-5affd-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "collegepro-5affd",
+    "storage_bucket": "collegepro-5affd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174669776651:android:2bc4694df2769d2d72040e",
+        "android_client_info": {
+          "package_name": "com.example.collegepro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174669776651-cpakv6v2q0c30mpj44b325m6fk643ugb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.collegepro",
+            "certificate_hash": "1d90e38aef4f328395aed0a2d916a2a4fc76618d"
+          }
+        },
+        {
+          "client_id": "174669776651-4e3b0m5pj9qdq201dc5e54ld4ak9sljd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPEZMQtJ4GzdbKqvIqWjAvTW90vymYssg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174669776651-4e3b0m5pj9qdq201dc5e54ld4ak9sljd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "174669776651-5k3lf1qlbfglgkt2hu178jja796tb1gf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.collegepro"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

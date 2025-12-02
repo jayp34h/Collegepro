@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- CollegePro CP Logo - Simplified and Bold -->
+    <!-- Letter C (Teal/Turquoise) -->
+    <path
+        android:fillColor="#4ECDC4"
+        android:pathData="M25,35 Q20,35 20,40 L20,55 Q20,60 25,60 L40,60 Q45,60 45,55 L45,50 L40,50 L40,55 L25,55 L25,40 L40,40 L40,35 L25,35 Z" />
+    
+    <!-- Letter P (Orange) -->
+    <path
+        android:fillColor="#F39C12"
+        android:pathData="M55,35 L55,75 L60,75 L60,55 L70,55 Q75,55 75,50 L75,40 Q75,35 70,35 L55,35 Z M60,40 L70,40 L70,50 L60,50 L60,40 Z" />
+    
+    <!-- 3D Effect - C Shadow -->
+    <path
+        android:fillColor="#3ABAB0"
+        android:pathData="M27,37 Q22,37 22,42 L22,57 Q22,62 27,62 L42,62 Q47,62 47,57 L47,52 L42,52 L42,57 L27,57 L27,42 L42,42 L42,37 L27,37 Z" />
+    
+    <!-- 3D Effect - P Shadow -->
+    <path
+        android:fillColor="#E67E22"
+        android:pathData="M57,37 L57,77 L62,77 L62,57 L72,57 Q77,57 77,52 L77,42 Q77,37 72,37 L57,37 Z M62,42 L72,42 L72,52 L62,52 L62,42 Z" />
+    
+    <!-- Highlight effects for 3D look -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.6"
+        android:pathData="M25,35 L30,35 L30,40 L25,40 L25,35 Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.6"
+        android:pathData="M55,35 L60,35 L60,40 L55,40 L55,35 Z" />
+</vector>
